@@ -1,0 +1,51 @@
+#back{
+    background-size: cover;
+    background-image: url(../imgs/hero.jpg);
+    height: 150px;
+    width: 100%;
+}
+#hero-text{
+    padding: 10px;
+    font-size: 20px;
+}
+#menu{
+    font-size: 25px;
+}
+#footer{
+    background-color: rgb(20, 20, 22);
+}
+.line{
+    border-bottom: 2px solid rgb(104, 102, 102);
+}
+@media screen and ( min-width:1000px){
+    #hero-text{
+        padding: 10px;
+        font-size: 35px;
+        top: 80px;
+        left: 50px;
+        position: relative;
+    }
+    #back{
+        height: 70vh;
+    }
+}
+@media screen and (max-width:999px){
+    #Myweb{
+        font-size: 35px;
+    }
+}
+@media screen and (min-width:700px) and (max-width:999px){
+    #hero-text{
+        padding: 8px;
+        font-size: 22px;
+    }
+    #back{
+        height: 300px;
+    }
+}
+@media screen and (max-width:476px){
+    #hero-text{
+        padding: 8px;
+        font-size:14px;
+    }
+}
